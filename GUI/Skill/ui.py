@@ -26,7 +26,7 @@ def skill_ui():
     ]
     frame_layout_s_cs = [
         [sg.Listbox(values=[], size=(40, 6), key=skill['children']['list'], enable_events=True),
-         sg.Combo([], key=skill['children']['choose'], enable_events=True, size=(10, 0), font='Any 16',)]
+         sg.Combo([], key=skill['children']['choose'], enable_events=True, size=(10, 10), font='Any 16',)]
     ]
     frame_layout = [
         [sg.Text('ID', size=(10, 0), font='Any 16', key=skill['text']['id']), sg.Input(key=skill['data']['id'], size=(30, 0), disabled=True, font='Any 16', enable_events=True)],

@@ -25,11 +25,11 @@ def eqpt_ui():
 
     frame_layout_e_sk = [
         [sg.Listbox(values=[], size=(18, 6), key=eqpt['skill']['list'], enable_events=True),
-         sg.Combo([], key=eqpt['skill']['choose'], enable_events=True, size=(8, 0), font='Any 16')]
+         sg.Combo([], key=eqpt['skill']['choose'], enable_events=True, size=(8, 10), font='Any 16')]
     ]
     frame_layout_e_sl = [
         [sg.Listbox(values=[], size=(18, 6), key=eqpt['slot']['list'], enable_events=True),
-         sg.Combo([], key=eqpt['slot']['choose'], enable_events=True, size=(8, 0), font='Any 16')]
+         sg.Combo([], key=eqpt['slot']['choose'], enable_events=True, size=(8, 10), font='Any 16')]
     ]
     frame_layout = [
         [sg.Text('ID', size=(10, 0), font='Any 16', key=eqpt['text']['id']), sg.Input(size=(30, 0), key=eqpt['data']['id'], disabled=True, font='Any 16', enable_events=True)],

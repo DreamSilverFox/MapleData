@@ -27,7 +27,7 @@ def attr_ui():
 
     frame_layout_a_s = [
         [sg.Listbox(values=[], size=(40, 6), key=attr['skill']['list'], enable_events=True),
-         sg.Combo([], key=attr['skill']['choose'], enable_events=True, size=(10, 0), font='Any 16',)]
+         sg.Combo([], key=attr['skill']['choose'], enable_events=True, size=(10, 10), font='Any 16')]
     ]
 
     frame_layout = [
