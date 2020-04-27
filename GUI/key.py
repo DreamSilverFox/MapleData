@@ -101,13 +101,13 @@ skill = {
         '-skill-dex-': 'dex',
         '-skill-int-': 'int',
 
-        '-skill-hp-point- ': 'hp_p',
-        '-skill-mp-point- ': 'mp_p',
-        '-skill-str-point- ': 'str_p',
-        '-skill-vit-point- ': 'vit_p',
-        '-skill-agi-point- ': 'agi_p',
-        '-skill-dex-point- ': 'dex_p',
-        '-skill-int-point- ': 'int_p'
+        '-skill-hp-point-': 'hp_p',
+        '-skill-mp-point-': 'mp_p',
+        '-skill-str-point-': 'str_p',
+        '-skill-vit-point-': 'vit_p',
+        '-skill-agi-point-': 'agi_p',
+        '-skill-dex-point-': 'dex_p',
+        '-skill-int-point-': 'int_p'
 
     },
     'data': {
